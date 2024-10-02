@@ -2,18 +2,18 @@ def c(line):
     valu_1, operations, valu_2 = line.split(" ")
     valu_1 = int(valu_1)
     valu_2 = int(valu_2)
-    # if operations == "+":
-    #     print(f"Результат: {valu_1 + valu_2}")
-    # if operations == "-":
-    #     print(f"Результат: {valu_1 - valu_2}")
-    # if operations == "*":
-    #     print(f"Результат: {valu_1 * valu_2}")
-    # if operations == "/":
-    #     print(f"Результат: {valu_1 / valu_2}")
-    # if operations == "//":
-    #     print(f"Результат: {valu_1 // valu_2}")
-    # if operations == "%":
-    #     print(f"Результат: {valu_1 % valu_2}")
+    if operations == "+":
+        print(f"Результат: {valu_1 + valu_2}")
+    if operations == "-":
+        print(f"Результат: {valu_1 - valu_2}")
+    if operations == "*":
+        print(f"Результат: {valu_1 * valu_2}")
+    if operations == "/":
+        print(f"Результат: {valu_1 / valu_2}")
+    if operations == "//":
+        print(f"Результат: {valu_1 // valu_2}")
+    if operations == "%":
+        print(f"Результат: {valu_1 % valu_2}")
 
 
 Lines = 0
